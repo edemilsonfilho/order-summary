@@ -7,6 +7,9 @@ body {
     background-color: #D6E1FF;
     display: flex;
     justify-content: center;
+}
+
+main {
     width: 375px;
     height: 709px;
 }
@@ -55,10 +58,51 @@ img {
     border: 0;
     width: 279px;
     height: 81px;
-    align-self: center;
+    align-items: center;
     border-radius: 8px;
     margin-bottom: 24px;
     background-color: rgba(151, 151, 151, );
+}
+
+.annual {
+    font-size: 14px;
+    font-weight: 900;
+    display: flex;
+    padding-left: 20.50px;
+    font-family: "Red Hat Display", serif;
+    color: rgba(31, 46, 85, 1);
+}
+
+.valor {
+    padding-left: 13px;
+    padding-top: 3px;
+    color: rgba(113, 127, 166, 1);
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.change {
+    display: flex;
+    align-self: center;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 70px;
+    color: rgba(56, 42, 225, 1);
+    text-decoration: underline;
+    justify-content: center;
+}
+
+#src {
+    display: flex;
+    align-self: center;
+    height: 48px;
+    width: 48px;
+}
+
+.heroi {
+    display: flex;
+    width: 267px;
+    height: 48px;
 }
 
 .dale {
