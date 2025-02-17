@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #D6E1FF;
+}
+
+button {
+    border: 0;
+    border-radius: 8px;
+    display:flex ;
+    background-color: rgba(247, 249, 255, 1);
+}
